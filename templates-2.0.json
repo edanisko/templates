@@ -489,15 +489,13 @@
           "name": "REGISTRY_PROXY_REMOTEURL",
           "default": "https://registry-1.docker.io",
           "preset": true
-        }
-      ]	    
-      "env": [
+        },
         {
           "name": "NODE_ENV",
           "default": "development",
 	  "preset": true
         }
-      ]	    
+      ]
     },
     {
       "type": 1,
