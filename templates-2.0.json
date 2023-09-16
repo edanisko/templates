@@ -483,7 +483,13 @@
         {
           "container": "/var/lib/ghost/content"
         }
-      ]
+      ],
+      "env": [
+        {
+          "name": "NODE_ENV",
+          "label": "development"
+        }
+      ]	    
     },
     {
       "type": 1,
